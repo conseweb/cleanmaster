@@ -1,0 +1,186 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#88000000"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+           <Button
+             android:id="@+id/button2"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="#00000000"
+             android:text="" />
+        
+    </LinearLayout>
+
+   
+ <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#aa00aaff"
+        android:orientation="vertical" >
+ 
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left" >
+      <TextView
+          android:id="@+id/imageView1"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:layout_marginTop="6dp"
+          android:layout_weight="1"
+          android:textColor="#ffffff"
+          android:textSize="26sp"
+          android:text="清理大师" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:background="@drawable/button_onset"
+            android:text="  " />
+      
+      </LinearLayout>
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="1dp"
+          android:background="#999999"
+          android:orientation="vertical" >
+      </LinearLayout>
+        
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center" >
+         <TextView
+          android:id="@+id/neicun"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_marginLeft="5dp"
+          android:layout_marginTop="5dp"
+          android:layout_weight="1"
+          android:textColor="#ffffff"
+          android:textSize="20sp"
+          android:text="内存使用" />
+         <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="@drawable/oh"
+        android:text="  " />
+
+  
+        
+    </LinearLayout>
+    
+    
+    
+      <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:layout_gravity="center" >
+    
+     <ToggleButton
+         android:id="@+id/wifi"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textColor="#ffffff"
+         android:background="@drawable/selector1"
+         android:textOff=" "
+         android:textOn=" " />
+ <ToggleButton
+         android:id="@+id/edge"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="19dp"
+         android:textColor="#ffffff"
+         android:background="@drawable/selector2"
+         android:textOff=" "
+         android:textOn=" " />
+  <ToggleButton
+         android:id="@+id/gps"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_marginLeft="19dp"
+         android:textColor="#ffffff"
+        android:background="@drawable/selector3"
+         android:textOff=" "
+         android:textOn=" " />
+  
+  <Button
+             android:id="@+id/appoption"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="19dp"
+              android:background="@drawable/button_offlock"
+             android:text="" />
+  
+  </LinearLayout>
+  
+      
+  <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:layout_gravity="center" >
+ <ToggleButton
+     android:id="@+id/blue"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:background="@drawable/selector4"
+         android:textOff=" "
+         android:textOn=" " 
+     android:textColor="#ffffff" />
+ 
+  <ToggleButton
+     android:id="@+id/light"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:layout_marginLeft="19dp"
+     android:background="@drawable/selector6"
+         android:textOff="  "
+         android:textOn="  " 
+     android:textColor="#ffffff" />
+ 
+    <ToggleButton  
+        android:id="@+id/xuan" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_marginLeft="19dp" 
+        android:background="@drawable/selector5" 
+        android:textColor="#ffffff" 
+        android:textOff=" " 
+        android:textOn=" "/>
+  
+
+    <Button
+        android:id="@+id/liang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="19dp"
+         android:background="@drawable/lfa"
+        android:text=" " />
+    
+      </LinearLayout>
+               
+    
+    
+    </LinearLayout>
+
+</LinearLayout>

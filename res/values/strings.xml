@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">CleanMaster</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    
+    <string name="startmonitor">Start float</string>
+    <string name="stopmonitor">Stop float</string>
+    <string name="clearmemory">Clear memory</string>
+    <string name="used_percent_value">CPU Used：\r\n%1$s</string>
+    <string name="available_memory">Free：\r\n%1$s M</string>
+    <string name="total_pss">Total Pss：\r\n%1$sK</string>
+    <string name="white">清理白名单</string>
+	
+</resources>
